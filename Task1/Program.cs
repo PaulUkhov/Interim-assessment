@@ -4,13 +4,18 @@ class Program
 {
     static void Recursion(int m, int n)
     {
-        if (m > n)
+        if (m == n)
         {
-            
+            Console.Write(m);
             return;
         }
+        if else (m > n)
+        {
+            Console.Write(m);
+        Recursion(m-1, n);
+        }
         Console.Write(m);
-        Recursion(m+1,n);
+        Recursion(m+1, n);
     }
     static void Main(string[] args)
     {
